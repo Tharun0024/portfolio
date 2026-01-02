@@ -1,6 +1,6 @@
 // src/App.tsx - ADD TOAST PROVIDER
 import { Routes, Route } from "react-router-dom";
-import { Toaster } from "@/components/ui/toaster";  // ✅ ADD THIS
+import { Toaster } from "@/components/ui/toaster";  
 import Index from "./pages/Index";
 import Resume from "./pages/resume";
 import Contact from "./pages/contact";
