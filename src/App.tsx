@@ -1,6 +1,5 @@
-// src/App.tsx - ADD TOAST PROVIDER
 import { Routes, Route } from "react-router-dom";
-import { Toaster } from "@/components/ui/toaster";  
+import { Toaster } from "@/components/ui/toaster";
 import Index from "./pages/Index";
 import Resume from "./pages/resume";
 import Contact from "./pages/contact";
@@ -13,7 +12,10 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Toaster />  
+
+      <Toaster />
     </>
   );
 }
+
+export default App;
